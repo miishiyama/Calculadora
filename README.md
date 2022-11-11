@@ -9,6 +9,7 @@ Projeto de uma calculadora básica. <br>
 As tecnologias utilizadas neste projeto são:
 - HTML
 - CSS
+- DOM
 - JavaScript
 
 ## Créditos ❤️
