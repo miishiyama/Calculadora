@@ -4,6 +4,9 @@ const buttons = document.querySelectorAll("#button-group");
 
 function square() {
     const exponent = "2";
+    if (document.getElementById("result").innerHTML === "0.") {
+        document.getElementById("result").innerText = "0";
+    };
     if (document.getElementById("result").innerHTML === "") {
         document.getElementById("result").innerHTML = "0";
         document.getElementById("preview").innerHTML = "0" + exponent.sup() + " =";
@@ -15,6 +18,9 @@ function square() {
 };
 
 function root() {
+    if (document.getElementById("result").innerHTML === "0.") {
+        document.getElementById("result").innerText = "0";
+    };
     if (document.getElementById("result").innerHTML === "") {
         document.getElementById("result").innerHTML = "0";
         document.getElementById("preview").innerHTML = " √ " + "0" + " =";
