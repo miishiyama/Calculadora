@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <h1>Calculadora</h1>
+      <div id="calculator">
+        <div id="screen">
+          <p id="preview"></p>
+          <p id="result"></p>
+        </div>
+        <div id="button-group" class="button">
+          <button onclick="square()" class="button-number">
+            x
+            <sup>2</sup>
+          </button>
+          <button onclick="root()" class="button-number">
+            <sup>2</sup>
+            √
+            <span>x</span>
+          </button>
+          <button id="clean" class="button-number">C</button>
+          <button onclick="cleanTheLast()" class="button-number">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="12" fill="#D1D5DB"/>
+              <path 
+                d="M10.4004 7.46875L12.0059 10.4453L13.6113 7.46875H15.6211L13.1426 11.6992L15.6855 16H13.6582L12.0059 12.9648L10.3535 16H8.31445L10.8633 11.6992L8.37891 7.46875H10.4004Z" 
+                fill="#6B7280"
+              />
+            </svg>            
+          </button>
+          <button id="number" class="button-number">1</button>
+          <button id="number" class="button-number">2</button>
+          <button id="number" class="button-number">3</button>
+          <button class="button-number">+</button>
+          <button id="number" class="button-number">4</button>
+          <button id="number" class="button-number">5</button>
+          <button id="number" class="button-number">6</button>
+          <button class="button-number">-</button>
+          <button id="number" class="button-number">7</button>
+          <button id="number" class="button-number">8</button>
+          <button id="number" class="button-number">9</button>
+          <button class="button-number">*</button>
+          <button id="number" class="button-number">.</button>
+          <button id="number" class="button-number">0</button>
+          <button class="button-number">=</button>
+          <button class="button-number">/</button>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
