@@ -2,8 +2,11 @@
 ![preview](./preview/Calculadora.png)
 
 ## Projeto 💻
-Projeto de uma calculadora básica. <br>
-(https://www.figma.com/file/EFOxZnz8E1q0JAF1cSphFt/Calculadora?t=6c0QNz1uWFLpDSVD-6)
+Projeto de uma calculadora básica.
+
+## Layout 🔖
+Segue abaixo o layout deste projeto:
+- [Figma](https://www.figma.com/file/EFOxZnz8E1q0JAF1cSphFt/Calculadora?t=6c0QNz1uWFLpDSVD-6)
 
 ## Instalação 🛠
 Siga esses passos para instalar o repositório na sua máquina:
