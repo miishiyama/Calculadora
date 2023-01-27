@@ -13,7 +13,7 @@ function square() {
         document.getElementById("result").innerHTML = "0"
         document.getElementById("preview").innerHTML = "0" + exponent.sup() + " ="
     } else {
-        var x = document.getElementById("result").innerHTML;
+        var x = document.getElementById("result").innerHTML
         document.getElementById("result").innerHTML = Math.pow(x, 2)
         document.getElementById("preview").innerHTML = x + exponent.sup() + " ="
     }
@@ -27,7 +27,7 @@ function root() {
         document.getElementById("result").innerHTML = "0"
         document.getElementById("preview").innerHTML = " √ " + "0" + " ="
     } else {
-        var x = document.getElementById("result").innerHTML;
+        var x = document.getElementById("result").innerHTML
         document.getElementById("result").innerHTML = Math.sqrt(x)
         document.getElementById("preview").innerHTML = " √ " + x + " ="
     }
@@ -96,8 +96,8 @@ class Calculator {
         } else {
             if (previous === 0) {
                 operationValue = current
-            };
-            this.previous.innerText = `${operationValue} ${operation}`
+            }
+            this.previous.innerText = `${ operationValue } ${ operation }`
             this.current.innerText = ""
         }
     }
