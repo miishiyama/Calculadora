@@ -38,7 +38,7 @@ function cleanTheLast() {
 }
 
 class Calculator {
-    constructor(previous, current) {
+    constructor (previous, current) {
         this.previous = previous
         this.current = current
         this.operation = ""
@@ -63,7 +63,7 @@ class Calculator {
         let operationValue
         const previous = +this.previous.innerText.split(" ")[0]
         const current = +this.current.innerText
-        switch(operation) {
+        switch (operation) {
             case "+":
                 operationValue = previous + current
                 this.updateScreen(operationValue, operation, current, previous)
